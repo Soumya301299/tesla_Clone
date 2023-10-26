@@ -1,0 +1,157 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    }
+    #div{
+        height: 100%;
+        width: 100%;
+        /* background-color: brown; */
+    }
+    #div>.nav1{
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        color: rgb(116, 112, 112);
+        padding: 20px;
+        font-size: 95%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+    }
+    #div>.nav1>a{
+        color: rgb(116, 112, 112);
+    }
+    #div>.nav1>a:hover{
+        color: rgb(116, 112, 112);
+    }
+    
+    #div>.nav2{
+        height: 60px;
+        width: 100%;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 50px; 
+        /* background-color: rgba(127, 255, 127, 0.603); */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #div>.nav2>.logo{
+        height: 50px;
+        width: 16%;
+        /* background-color: aqua; */
+        padding-top: 17px;
+    }
+    #div>.nav2>.logo>a>svg{
+        color: black;
+        height: 12px;
+        width: 100%;
+        /* background-color: blue; */
+    }
+    #div>.nav2>.navlist{
+        height: 60px;
+        width: 84%;
+    }
+    #div>.nav2>.navlist>ol{
+        height: 60px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #div>.nav2>.navlist>ol>li>.div1{
+        height: 30px;
+        width: 90px;
+    }
+    #div>.nav2>.navlist>ol>a{
+        text-decoration: none;
+    }
+    #div>.nav2>.navlist>ol>a>li{
+        color: rgb(63, 59, 59);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 90%;
+        font-weight: 600;
+        padding: 6px;
+        text-decoration: none;
+    }
+    #div>.nav2>.navlist>ol>a>li:hover{
+        border-radius: 4px;
+        background-color: rgba(140, 140, 155, 0.404);
+    }
+    
+    
+    #div>#main1{
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 170%;
+        background-position: 0;
+        background-image: url(../components/Homepage-Model-3-Desktop-LHD.jpg);
+    }
+    #div>#main2{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../components/Homepage-Model-X-Desktop-LHD.jpg);
+        background-position: 0;
+        background-size: 100% 129%;
+    }
+    #div>#main3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../components/Homepage-Model-Y-Global-Desktop.jpg);
+        background-position: 0;
+        background-size: 100% 129%;
+    }
+    #div>#main4{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../components/Model-Y-Main-Hero-Desktop-Global.jpg);
+        background-position: 0;
+        background-size: 100% 129%;
+    }
+
+/* 
+    .content>article{
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 7%;
+    }
+    .content>article>h1{
+        padding-left: 35px;
+        font-size: 50px;
+        margin-bottom:18px;
+    }
+    .links>article{
+        position: absolute;
+        margin-top: 42%;
+        margin-left: 30%;
+    }
+    .links>article>.custom{
+        padding: 10px 80px;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(37, 37, 37);
+        border-radius: 30px;
+    
+    }
+    
+    .links>article>.existing{
+        padding: 10px 80px;
+        text-decoration: none;
+        color: black;
+        background-color:#fff;
+        border-radius: 30px;
+    
+    }  */
+    
+#div>.foot>ol>li{
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+ 
+}
